@@ -74,6 +74,13 @@ background-color: #393E46;}
     border-radius: 100%;
     margin: auto;
   }
+
+  .newspaper{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: auto;
+  }
   a{
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
@@ -118,7 +125,26 @@ background-color: #393E46;}
     border-radius: 100%;
     margin-top: 30px;
   }
-  
+
+  .cat-img{
+    width: 250px;
+    height: 200px;
+    border-radius: 100%;
+    margin: auto;
+  }
+
+  .pizza-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: auto;
+  }
+  .tenor-gif-embed{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    margin: auto;
+  }
   .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
@@ -140,7 +166,16 @@ background-color: #393E46;}
   .brief-description{
     color: #40514E;
   }
-  
+
+  .brief-description-title{
+    color: #40514E;
+    font-weight: bold;
+  }
+
+ .solid{
+  border-top: 3px solid #bbb;
+  margin-top: 40px;
+ }  
   .footer-link{
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
