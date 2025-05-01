@@ -2,13 +2,64 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
     <title>All About Git</title>
-    <h1>All About Git</h1>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div class="menu-bar">
+      <a class="btn" href="index.html">HOME</a>
+      <a class="btn" href="about.html">ABOUT</a>
+      <a class="btn" href="news.html">NEWS</a>
+    </div>
+    <div class="top-container">
+      <h1>All About Git.</h1>
+      <h2>Ready to learn some more?</h2>
+      <img class="man" src="img/man.jpg" alt="man-img">
+    </div>
+   
+    <div class="middle-container">
+      <div class="supporting-middle">
+        <h2>The 3 Phases of the Git Workflow</h2>
+        <p class="brief-description">These are the main phases in the Git Workflow, become familiar with it.</p>
+        <img class="gitimg" src="img/gitgud.png" alt="gitgud">
+        </div>
+      <hr>
+      <div class="blob">
+        <h2 style="margin-top: 50px;">The 4 Main Objects</h2>
+        <div class="ft-row">
+          <img class="ft-img" src="img/file.png" alt="file-img">
+          <h3>The Blob</h3>
+          <p>A blob is also known as a file!</p>
+        </div>
+        <div class="commit-row">
+          <img class="commit" src="img/save.png" alt="save-img">
+          <h3>Commit</h3>
+          <p>A Commit is when you make changes and save your work</p>
+          
+      <div class="tree-row">
+        <img class="tree" src="img/tree.png" alt="tree-img">
+        <h3>Tree</h3>
+        <p>A Tree Object creates the relationship between files in a Git Repository</p>
+      </div>
+      <!--
+      <div class="tag-row">
+        <img class="tag" src="" alt="tag-img">
+        <h3>Tags</h3>
+        <p>A Tree Object creates the relationship between files in a Git Repository</p>
+      </div>
+-->
+      <hr>
+  
+    
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.am-webdeveloper.com/">Website</a>
+      <p class="footer-text">© 2025 GitLovers @ NHA.</p>
+    </div>
+  <script src="src/main.js"></script>
   </body>
 </html>
