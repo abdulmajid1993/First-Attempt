@@ -156,6 +156,11 @@ background-color: #393E46;}
     border-radius: 100%;
     margin: auto;
   }
+
+  .wb-img{
+    width:70%;
+    height: 70%;
+  }
   .skill{
     width: 25%;
     float: left;
