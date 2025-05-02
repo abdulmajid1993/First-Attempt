@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    text-align: center;
+    text-align: -webkit-center;;
     font-family: 'Merriweather', serif;
     color: #40514E;
   }
@@ -31,7 +31,7 @@ background-color: #393E46;}
     color: #11999E;
   }
   
-  hr{
+  .hr-home{
     border-style: dotted none none none;
     border-color: #EAF6F6;
     border-width: 5px;
@@ -150,11 +150,25 @@ background-color: #393E46;}
     margin: 100px auto 100px auto;
     text-align: left;
   }
-  
+  .terminal-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: auto;
+  }
   .skill{
     width: 25%;
     float: left;
     margin-right: 30px;
+  }
+
+  table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: #96D4D4;
+    padding: 15px;
   }
   
   .photography{
@@ -173,8 +187,9 @@ background-color: #393E46;}
   }
 
  .solid{
-  border-top: 3px solid #bbb;
+  border-top: 3px solid #393E46;
   margin-top: 40px;
+  border-width: 5px;
  }  
   .footer-link{
     font-size: 15px;
